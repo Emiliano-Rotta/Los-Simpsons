@@ -1,0 +1,103 @@
+/* *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: rgb(246, 144, 161);
+    color: white;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-nav{
+    width: 150px;
+    height: auto;
+    margin-left: 80%;
+}
+
+.avatar{
+    width: 8%;
+    height: auto;
+    border-radius: 100%;
+} */
+.nave{
+    width: 120px;
+    height: 120px;
+    background-image: url('../img/juegos/juegoEscopeta/homero-escopeta.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom:50px;
+    left: calc(50vw - 40px);
+}
+body{
+    background-image: url('../img/juegos/juegoEscopeta/sillon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    /* box-sizing: border-box; */
+}
+.bala{
+    width: 10px;
+    height: 10px;
+    background-color:wheat;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 5px red;
+    position: absolute;
+}
+.enemigo{
+    width: 120px;
+    height: 90px;
+    background-image: url('../img/juegos/juegoEscopeta/marge.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:0;
+}
+#lives{
+    background-color:rgb(246, 144, 161) ;
+    /* position: absolute; */
+    top:10px;
+    left: 10px;
+    font-size: 1.5em;
+    color:#fee500;
+    width: 9%;
+}
+i{
+    color:#fee500;;
+}
+#times{
+    /* position:absolute; */
+    top:10px;
+    right: 10px;
+    font-size: 1.5em;
+    color:#fee500;
+    background-color:rgb(246, 144, 161) ;
+    width: 9%;
+}
+
+#puntos{
+    /* position:absolute; */
+    top:10px;
+    right: 10px;
+    font-size: 1.5em;
+    color:#fee500;
+    background-color:rgb(246, 144, 161) ;
+    width: 9%;
+}
+#puntos-total{
+    /* position:absolute; */
+    top:10px;
+    right: 10px;
+    font-size: 1.5em;
+    color:#fee500;
+    background-color:rgb(246, 144, 161) ;
+    width: 9%;
+}
+footer{
+   position: absolute;
+   bottom: 0vh;
+}

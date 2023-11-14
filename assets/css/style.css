@@ -1,0 +1,635 @@
+@import url('https://fonts.cdnfonts.com/css/homer-simpson-revised');
+
+*{
+    padding: 0%;
+    margin:0%;
+}
+body{
+    background-color: #F8C947;
+    /* background-image: url("assets/img/landing\ page.jpg"); */
+}
+
+header{
+    /* position: relative; */
+    margin-top: -3% ;
+    width: 80%;
+    height: auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 10%;
+}
+header button{
+    margin-top: 2%;
+    width: 200px;
+    height: 50px;
+}
+nav {
+    background-color: rgb(246, 144, 161);
+    color: white;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-nav{
+    width: 150px;
+    height: auto;
+    margin-left: 80%;
+}
+
+button{
+    width: 150px;
+    height:50px;
+    background: linear-gradient(to left top, #fbd260 50%, #F8C947 50%);
+    border-style: none;
+    color:#ff5c77;
+    font-size: 27px;
+    letter-spacing: 3px;
+    font-family: 'Homer Simpson Revised', sans-serif;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+} 
+
+button:hover{
+    transition: all .5s;
+    transform: rotate(-3deg) scale(1.1);
+    box-shadow: 0px 3px 5px rgba(0,0,0,.4);
+}
+
+ #cortos{
+    width: 230px;
+    background: linear-gradient(
+        50deg,
+        #F8C947, #F8C947, #ff5c77, #F8C947, #F8C947, #F8C947, #ff5c77,#F8C947
+    );
+    background-size: 800%;
+    color: #754a51;
+    animation: glowing 20s linear infinite;
+}
+@keyframes glowing {
+    0%{background-position: 0 0;}
+    50%{background-position: 400% 0;}
+    100%{background-position: 0 0;}
+}
+
+
+footer {
+    background-color: rgb(246, 144, 161);
+    color: white;
+    position: absolute;
+    height: 6%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Homer Simpson Revised', sans-serif;
+    font-size: 25px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+   
+}
+main {
+    display: none;
+}
+
+/* nav */
+nav section{
+    display: flex;
+    margin-top: 20px;
+    /* position: inherit; */
+
+}
+
+.avatar{
+    width: 30%;
+    border-radius: 100%;
+    margin-left: 15px;
+    margin-right: -250px;
+   
+}
+
+/* home */
+
+.card{
+    border: solid 4px black;
+    width: 20%;
+    /* max-height: 40%; */
+    margin-bottom: 2%;
+    flex-direction: column;
+    font-family: 'Homer Simpson Revised', sans-serif;
+}
+.card:hover{
+    background-color: rgb(246, 144, 161);
+    color:#fee500;
+}
+.card:active{
+    background-color: rgb(246, 144, 161);
+    color:#fee500;
+    position:fixed;
+    width: 60%;
+    height: 70vh;
+}
+.card:active .img{
+    width: auto;
+    height: 70vh;
+}
+.card:active .info{
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+
+}
+.card:active .name{
+    display: none;
+}
+
+.info{
+    display: none;
+    padding: 50px;
+    font-size: 30px;
+    text-align: justify;
+}
+.info p{
+    margin-top: 20px;
+}
+
+.image{
+    justify-content: center;
+    display: flex;
+}
+
+.img {
+    /* max-width: auto;
+    max-height: 50%; */
+    width: auto;
+    height: 200px;
+}
+
+.name{
+    border-top: solid 2px black;
+    text-align: center;
+    bottom: 0px;
+    font-size: 25px;
+}
+
+#tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 7%;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.prev-next {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 2px #ff5c77;
+    margin-right:10px;
+}
+main{
+    text-align: center;
+}
+/* #buscador{
+    margin-bottom: 40px;
+    width: 500px;
+    height: 40px;
+}
+#btn-buscador{
+
+    width: 50px;
+    height: 40px;
+} */
+.buscador-contenedor{
+    position: fixed;
+    left: 50%;
+    top: 15%; 
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+.buscador-contenedor input{
+    outline: none;
+	box-sizing: border-box;
+	height: 50px;
+	width: 0px;
+	padding: 0 20px;
+	border-radius: 30px;
+	font-size: 20px;
+	border: 2px solid #ff5c77;
+	transition: all .7s ease;
+}
+::placeholder {
+	color: #ff5c77;
+}
+.buscador-icono{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 80px;
+	height: 80px;
+	line-height: 70px;
+	border-radius: 50%;
+    /* border: 1px solid #754a51; */
+	text-align: center;
+	cursor: pointer;
+	transition: .5s;
+    background: linear-gradient(
+        50deg,
+        #F8C947, #F8C947, #ff5c77, #F8C947, #F8C947, #ff5c77, #F8C947, #F8C947
+    );
+    background-size: 800%;
+    animation: glowing 20s linear infinite;
+
+}
+.buscador-icono i{
+    font-size: 35px;
+	color: #754a51;
+	line-height: 60px;
+	transition: all .7s ease;
+}
+.buscador-contenedor:hover input {
+	width: 350px;
+}
+
+.buscador-contenedor:hover i{
+	transform: rotate(-360deg);
+}
+
+.buscador-icono:hover{
+	background: rgb(246, 144, 161);
+}
+
+.loading{
+    display: none;
+    margin-left: 20%;
+    width: 100vh;
+    height: 90vh;
+}
+
+.loading img {
+    width: 90%;
+    /* height: 45vh; */
+}
+
+.sonido{
+    color: #754a51;
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    right: 7%;
+    top: 11%;
+    font-size: 60px;
+    border-radius: 100%;
+    background: linear-gradient(
+        50deg,
+        #F8C947, #F8C947, #ff5c77, #F8C947, #F8C947, #ff5c77, #F8C947, #F8C947
+    );
+    background-size: 800%;
+    animation: glowing 20s linear infinite;
+}
+@keyframes glowing {
+    0%{background-position: 0 0;}
+    50%{background-position: 400% 0;}
+    100%{background-position: 0 0;}
+
+}
+
+
+main i{
+    position: absolute;
+    /* right: 10%; */
+    top: 10%;
+}
+
+
+/* .modal-rey{
+    position: absolute;
+    margin-top: -20%;
+    width: 100%;
+    height: 190%;
+    background-color: rgba(0,0,0,.2);
+} */
+#modal-rey { 
+    /* border: solid black 3px; */
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+#modal-rey img{
+    width: 66%;
+    height: 100%;
+}
+#modal-rey button{
+    width: 10%;
+    height: 100%;
+    background-color: black;
+    color: black;
+    font-size: 300%;
+    border: black solid 5px
+}
+#modal-rey:hover{ 
+    width: 110%;
+    height: 15vh;
+    margin-left: -5%;
+    margin-top: 8%;
+}
+#modal-rey:hover button{ 
+    color: #754a51;
+    font-size: 60px;
+    background: linear-gradient(
+        50deg,
+        #F8C947, #F8C947, #ff5c77, #F8C947, #F8C947, #ff5c77, #F8C947, #F8C947
+    );
+    background-size: 800%;
+    animation: glowing 20s linear infinite;
+    border: #ff5c77 solid 5px
+}
+
+.btn-burger-cerrar{
+    display: none;
+}
+.btn-burger-abrir{
+    display: none;
+}
+
+
+@media (max-width: 1200px) {
+
+
+    nav {
+        flex-direction: column;
+    }
+    .logo-nav{
+        position: relative;
+        right: 45%;
+    }
+    nav section button{
+        width: 100px;
+        height:33px;   
+        font-weight: 500;
+        font-size: 25px;
+        position: relative;
+        left: 40%
+    }
+    .avatar{
+        position: relative;
+        left: 200%;
+    }
+
+    .buscador-contenedor{
+        top: 23%; 
+    }
+    .sonido{
+        top: 19%; 
+    }
+
+    .card{
+        border: solid 3px black;
+        width: 30%;
+    }
+
+    .card:active{
+        width: 65%;
+        height: 70vh;
+    }
+
+    .card:active .image{
+        display: flex;
+        flex-direction: column;
+    }
+    .card:active .img{
+        padding:1% 15%;
+        width: auto;
+        height: 40vh;
+    }
+    .card:active .info{
+        display: flex;
+        flex-direction: column;
+        /* align-items:stretch; */
+        font-size: 20px;
+        margin: -30px;
+    }
+    .card:active .info p{
+        margin-top: 0px;
+    }
+    #tarjetas{
+        margin-top: 10%;
+    }
+    footer {
+        height: 7%;
+        display: flex;
+        font-size: 20px;
+    }
+    footer a {
+        justify-content: center;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    nav section button{
+        left: 37%
+    }
+    .avatar{
+        left: 170%;
+    }
+   }
+
+@media (max-width: 1000px) {
+    nav section button{
+        left: 30%
+    }
+
+    .avatar{
+        left: 130%;
+    }
+    #tarjetas{
+        margin-top: 12%;
+    }
+}
+
+
+  @media (max-width: 900px) {
+    nav section button{
+        left: 25%
+    }
+
+  .avatar{
+    left: 100%;
+    }
+    .name{
+        font-size: 18px;
+    }
+    .loading{
+        margin-left: -10%;
+        width: 80vh;
+        height: 72vh;
+    }
+}
+
+  @media (max-width: 800px) {
+
+    nav section button{
+        left: 15%;
+
+    }
+    .avatar{
+        left: 50%;
+    }  
+
+  }
+
+
+@media (max-width: 776px) {
+
+    nav{
+        display: block;
+    }
+    .burger{
+        /* display: flex; */
+        margin-bottom: 10px;
+        width: 500px;
+        height: 50px;
+        font-size: 50px;
+        justify-content: center;
+        margin-left: -50px;
+    }
+    .btn-burger-cerrar{
+        display: none;
+    }
+    .btn-burger-abrir{
+        display: flex;
+    }
+    .avatar{
+        display: none;
+    }
+    nav section div a{
+        text-decoration: none;
+    }
+    nav section div{
+        display: none;
+    }
+    nav section div a button{
+        margin-left: -50px;
+        margin-bottom: 10px;
+        width: 500px;
+        height: 50px;
+        font-size: 50px;
+    }
+    
+    #cortos{
+        width: 500px;
+    }    
+   
+    
+    .card{
+        border: solid 3px black;
+        width: 48%;
+    }
+
+    .card:active{
+        width: 65%;
+        height: 70vh;
+    }
+
+    .card:active .image{
+        display: flex;
+        flex-direction: column;
+    }
+    .card:active .img{
+        width: auto;
+        height: 40vh;
+    }
+    .card:active .info{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        margin: -30px;
+    }
+    .card:active .info p{
+        margin-top: 0px;
+    }
+    #tarjetas{
+        margin-top: 15%;
+    }
+    .buscador-contenedor{
+        top: 70%; 
+    }
+    .sonido{
+        top: 11%; 
+    }
+    footer {
+        height: 7%;
+        display: flex;
+        font-size: 20px;
+    }
+    footer a {
+        justify-content: center;
+    }
+    .name{
+        font-size: 25px;
+    }
+  }
+
+@media (max-width: 576px) {
+
+    .card:active{
+        width: 60%;
+        height: 60vh;
+    }
+
+    .card:active .image{
+        display: flex;
+        flex-direction: column;
+    }
+    .card:active .img{
+        width: auto;
+        height: 30vh;
+    }
+    .card:active .info{
+        display: flex;
+        flex-direction: column;
+        /* align-items:stretch; */
+        font-size: 30px;
+        margin: -30px;
+    }
+    .card:active .info p{
+        margin-top: 0px;
+    }
+    #tarjetas{
+        margin-top: 20%;
+    }
+    footer {
+        height: 10%;
+        display: flex;
+        font-size: 20px;
+    }
+    footer a {
+        justify-content: center;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .loading{
+        width: 50vh;
+        height: 45vh;
+    }
+    #modal-rey { 
+        justify-content:left;
+    }
+  }

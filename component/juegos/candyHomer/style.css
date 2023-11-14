@@ -1,0 +1,226 @@
+@import url('https://fonts.cdnfonts.com/css/homer-simpson-revised');
+* {
+    margin: 0;
+}
+
+nav {
+    margin-bottom: 0%;
+}
+.not-play{
+    display: none;
+    font-family: 'Homer Simpson Revised';
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(1920x1080_px_Duff_food_Homer_Simpson_The_Simpsons-1394383.jpg);
+    background-size: cover;
+    background-position-y: 10%;
+    font-family: 'Homer Simpson Revised';
+    height: 100vh;
+}
+
+
+
+.contenedor-principal {
+    width: 500px;
+    max-width: 500px;
+    height: 100vh;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 60px;
+    color: rgb(255, 105, 130);
+    margin: 40px;
+    
+}
+
+.puntaje {
+    display: flex;
+    align-items: flex-end;
+}
+
+.informacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #F8C947;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: rgb(246, 144, 161);
+}
+.puntos {
+    margin: 0 5px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    background-color: rgb(246, 144, 161);
+    border-radius: 4px;
+    color: rgb(248, 201, 71);
+    text-shadow: 1px 1px #424242, 1px -1px #424242, -1px -1px #424242, -1px 1px #424242;
+}
+#boton-jugar{
+    height: 28px;
+    width: 170px;
+    border:solid 3px rgb(246, 144, 161);
+    background: linear-gradient(50deg,
+        #dcbe6d, #F8C947, #ff5c77, #F8C947, #F8C947, #F8C947, #ff5c77,#F8C947
+    );
+    background-size: 800%;
+    animation: glowing 20s linear infinite;
+}
+@keyframes glowing {
+    0%{background-position: 0 0;}
+    50%{background-position: 400% 0;}
+    100%{background-position: 0 0;}
+
+    }
+
+
+#valor-puntos{
+    margin-left: 10px;
+}
+
+.contenedor-grilla {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: rgba(246, 144, 161, 0.9);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tiempo {
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    background-color: rgb(246, 144, 161);
+    border-radius: 4px;
+    color: #F8C947;
+    text-shadow: 1px 1px #424242, 1px -1px #424242, -1px -1px #424242, -1px 1px #424242;
+}
+
+
+
+
+.modal {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    width: 478px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px auto;
+    display: inline-block;
+    vertical-align: middle;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+    font-family: 'Homer Simpson Revised';
+    text-shadow: none;
+    letter-spacing: -0.5px;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.titulo-modal {
+    font-weight: 600;
+    text-transform: none;
+    position: relative;
+    display: block;
+    padding: 13px 16px;
+    font-size: 27px;
+    line-height: normal;
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+.contenido-modal {
+    padding: 0 25px;
+}
+
+.texto-modal {
+    margin-bottom: 20px;
+}
+
+.boton {
+    border: none;
+    cursor: pointer;
+    background-color: rgb(246, 144, 161);
+    display: block;
+    font-size: 25px;
+    background-color: rgb(246, 144, 161);
+    border-radius: 8px;
+    color: #F8C947;
+    text-shadow: 1px 1px #424242, 1px -1px #424242, -1px -1px #424242, -1px 1px #424242;
+}
+
+#modal-fin-juego {
+    background-color: #F8C947;
+    color: rgb(246, 144, 161);
+    font-weight: 600;
+    text-transform: none;
+    display: block;
+    font-size: 27px;
+    margin-top: 5%;
+    z-index: 4;
+}
+
+.ocultar {
+    display: none;
+}
+.grilla {
+    position: relative;
+}
+
+.grilla > div {
+    position: absolute;
+    transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1);
+    text-shadow: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.borrar-emoji{
+    transform: scale(0);
+} 
+
+
+.seleccionado {
+    border: 1px solid #ffffff;
+}
+
+
+@media (max-width: 500px) {
+    .body {
+        display: none;
+   }
+   .not-play{
+    display: flex;
+    font-family: 'Homer Simpson Revised';                                                
+    width: 80%;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: rgb(246, 144, 161);
+    padding: 2%;
+    font-size: 20px;
+    color: white;
+    margin: 10%;
+}
+}
+

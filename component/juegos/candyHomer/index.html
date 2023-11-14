@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="../../../public/rosquilla.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="../../../assets/css/style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css'>
+    <title>Los Simpsons</title>
+  </head>
+
+  <body>
+
+    
+        <nav>
+            <a href="../../../index.html"><img class="logo-nav" src="../../../assets/img/logo.jpg" alt=""></a>
+            <section> 
+                <div>
+                    <a href="../../carrusel.html"><button id="btn-familia">Familia</button></a>
+                    <a href="../../frases.html"><button id="frases">Frases</button></a>
+                    <a href="../index.html"><button id="juegos">Juegos</button></a>
+                    <a href="../../cortos.html"><button id="cortos">Primeros cortos</button></a>
+                    <button class="btn-burger-cerrar burger">Cerrar</button>
+                </div>
+                <button class="btn-burger-abrir burger"><i class="fa fa-bars" aria-hidden="true"></i></button>
+
+                <a href="https://www.linkedin.com/in/emiliano-rotta-fernandez/" target="_blank">
+                    <img src="../../../assets/img/avatar.jpeg" alt="" class="avatar">
+                </a>
+            </section>
+    
+        </nav>
+        <div class="not-play">
+            <h1>Juego no disponible para dipositivos con ancho menor a 500px</h1>
+        </div>
+
+        <div class="body">
+            <div class="contenedor-principal">
+                <h1 class="titulo">Candy Homer</h1>
+                <div class="informacion">
+                    <div class="puntaje">
+                        <div class="tiempo">
+                            <p class="temporizador" id="temporizador">0:00</p>
+                        </div>
+                        <p class="puntos">Puntos: <span id="valor-puntos">0</span></p>
+                        <button class="boton" id="boton-jugar">Nuevo juego</button>
+                    </div>
+                </div>
+                <div class="contenedor-grilla">
+                    <div class="grilla">
+                    </div>
+                </div>
+            </div>
+            <div class="overlay">
+    
+
+                <div class="modal ocultar" id="modal-fin-juego">
+                    <h2 class="titulo-modal">¡Juego terminado!</h2>
+                    <div class="contenido-modal">
+                        <p class="parrafo-puntaje">
+                            <span id="puntaje-final">0</span>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <footer>
+            <a href="../../footer/copyright.html" ><p>© 2023 Copyright Emiliano Rotta</p></a>
+            <a href="../../footer/javascript.html" ><p>Solo con Javascript, ¿Por qué?</p></a>
+            <a href="../../footer/proximo.html" ><p>¿Cual es el Próximo?</p></a>
+            <a href="https://wa.me/543513729744/?text=Me%20gustó%20tu%20página%20de%20los%20Simpsons" target="_blank">Contacto</a>
+            <a href="https://www.linkedin.com/in/emiliano-rotta-fernandez/" target="_blank">Linkedin</a>
+        </footer>
+    <script type="module" src="../../nav.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

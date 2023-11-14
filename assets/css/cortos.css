@@ -1,0 +1,151 @@
+@import url('https://fonts.cdnfonts.com/css/homer-simpson-revised');
+
+.div-video{
+    margin-left: 5%;
+    
+}
+video{
+    width: 500px;
+    height: 350px;
+    box-sizing: border-box;
+    margin-right: 15px;
+    border: solid black 3px;
+    background-color: black
+}
+
+.contenedor-videos{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.temporadas{
+    display: flex;
+    justify-content: center;
+
+}
+
+.datos{
+    font-family: 'Homer Simpson Revised', sans-serif;                                                
+    width: 500px;
+    height: 350px;
+    border: solid rgb(40, 40, 40) 3px;
+    box-sizing: border-box;
+    background-color: rgb(246, 144, 161);
+    padding: 2%;
+    font-size: 20px;
+    color: rgb(40, 40, 40);
+}
+
+.datos:hover{
+    background-color: #F8C947;
+}
+
+.contenedor-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-btn button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(246, 144, 161);
+    margin-bottom: 40px;
+}
+.contenedor-btn button:hover{
+    background-color: #F8C947;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 1%;
+    font-family: 'Homer Simpson Revised', sans-serif;
+                                                
+}
+
+#titulo{
+    margin-bottom: 2%;
+}
+
+@media (max-width: 1000px) {
+    video{
+        margin-right: 5px;
+        margin-left: -35px;
+    }
+    .datos{                                            
+        width: 400px;
+        height: 350px;
+    }
+ }
+ @media (max-width: 900px) {
+    video{
+        width: 400px;
+        height: 280px;
+    }
+
+    .datos{                                            
+        width: 400px;
+        height: 280px;
+    }
+ }
+
+ @media (max-width: 800px) {
+    video{
+        width: 400px;
+        height: 280px;
+    }
+
+    .datos{                                            
+        width: 300px;
+        height: 280px;
+        font-size: 18px; 
+    }
+ }
+
+ @media (max-width: 650px) {
+    video{
+        width: 400px;
+        height: 280px;
+        margin-left: 5px;
+    }
+    .contenedor-videos{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .datos{                                            
+        width: 400px;
+        height: 100px;
+        margin-bottom: 10px;
+        font-size: 18px; 
+    }
+    #sinopsis{
+        display: none;
+    }
+    #directores{
+        display: none;
+    }
+    #escritor{
+        display: none;
+    }
+
+ }
+
+ @media (max-width: 400px) {
+    video{
+        width: 300px;
+        height: 210px;
+        margin-left: -35px;
+    }
+    .contenedor-videos{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .datos{                                            
+        width: 300px;
+        height: 60px;
+        margin-bottom: 10px;
+        font-size: 15px; 
+        margin-left: -35px;
+    }
+
+ }

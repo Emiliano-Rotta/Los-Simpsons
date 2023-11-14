@@ -1,0 +1,155 @@
+[
+    {
+        "id": 30,
+        "titulo": "Shut Up Simpsons",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "6/11/1988",
+        "sinopsis": "Tras una discusión, el abuelo, Homero, Bart, Lisa y Maggie se perdonan entre ellos, pero Bart le pone una condición a Homero."
+    },
+    {
+        "id": 31,
+        "titulo": "The Shell Game",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "13/11/1988",
+        "sinopsis": "Bart roba una galleta del tarro. Cuando se acercan sus padres, Bart esconde la galleta bajo un tazón intentando no ser descubierto. Acaba usando tres tazones, como si Homero y Marge jugaran al trile."
+    },
+    {
+        "id": 32,
+        "titulo": "The Bart Simpson Show",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "20/11/1988",
+        "sinopsis": "Homero no deja ver «Tommy y Daly» a los niños porque lo ve demasiado violento. Bart desmonta la tele, se mete dentro y hace su propio show."
+    },
+    {
+        "id": 33,
+        "titulo": "Punching Bag",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "27/11/1988",
+        "sinopsis": "Bart y Lisa juegan con un saco de boxeo en el que Lisa ha dibujado la cara de Homero. A Homero le molesta el ruido de los puñetazos y ordena a Marge que haga parar a los niños. Marge se aficiona a darle al saco y esta vez el propio Homero va a poner fin al ruido."
+    },
+    {
+        "id": 34,
+        "titulo": "Simpsons Christmas",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "18/12/1988",
+        "sinopsis": "Bart cuenta la historia rimada de una noche de Navidad en la familia Simpson."
+    },
+    {
+        "id": 35,
+        "titulo": "The Krusty the Clown Show",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "15/1/1989",
+        "sinopsis": "Bart, Lisa y Maggie van a ver en directo «El Show de Krusty el Payaso». Bart no se cree que el hombre al que están viendo sea el verdadero Krusty e intenta desenmascararle en directo."
+    },
+    {
+        "id": 36,
+        "titulo": "Bart The Hero",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "29/1/1989",
+        "sinopsis": "Bart evita un robo por casualidad y gana una gran recompensa…"
+    },
+    {
+        "id": 37,
+        "titulo": "Bart's Little Fantasy",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "05/2/1989",
+        "sinopsis": "Homero y Marge ordenan a los niños que limpien una habitación repleta de juguetes. Entonces, Bart cuenta una historia a Lisa y Maggie en la que los niños son los padres y los padres son los niños."
+    },
+    {
+        "id": 38,
+        "titulo": "Scary Movie",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "12/2/1989",
+        "sinopsis": "Bart, Lisa y Maggie van al cine. A pesar de que sus hermanas querían ver «El Regreso de los Pequeños Elfos Felices», Bart compra entradas para «La Venganza de los Mutantes del Espacio»."
+    },
+    {
+        "id": 39,
+        "titulo": "Home Hypnotism",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "19/2/1989",
+        "sinopsis": "Homero y Marge recurren a la hipnosis para intentar que sus hijos se porten bien. Bart, Lisa y Maggie engañan a sus padres y se ponen a actuar como zombies."
+    },
+    {
+        "id": 40,
+        "titulo": "Shoplifting ",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "26/2/1989",
+        "sinopsis": "Bart es descubierto intentando robar chocolatinas en una tienda. Más tarde, en el coche, Marge intenta que Bart descubra la moraleja de la historia."
+    },
+    {
+        "id": 41,
+        "titulo": "Echo Canyon",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "12/3/1989",
+        "sinopsis": "Durante unas vacaciones, los Simpson visitan Echo Canyon (El Cañón Del Eco). Bart hace de las suyas y el eco propaga las frases de Bart y Homero durante la posterior persecución."
+    },
+    {
+        "id": 42,
+        "titulo": "Bathtime",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "19/3/1989",
+        "sinopsis": "Bart intenta esconderse de Homero para no tener que bañarse, pero Homero le descubre. Mientras se baña, Bart juega a imitar a Jacques Cousteau."
+    },
+    {
+        "id": 43,
+        "titulo": "Bart's Nightmare",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "26/3/1989",
+        "sinopsis": "Después de comerse todas las galletas del tarro, Bart tiene una pesadilla."
+    },
+    {
+        "id": 44,
+        "titulo": "Bart Of The Jungle",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "16/4/1989",
+        "sinopsis": "Bart, Lisa y Maggie, vestidos como Tarzán, hacen lianas con las corbatas de Homero, ante el enfado de éste cuando lo descubre."
+    },
+    {
+        "id": 45,
+        "titulo": "Family Therapy",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "23/4/1989",
+        "sinopsis": "Homero lleva a la familia a un psicólogo para intentar solucionar sus problemas de infelicidad."
+    },
+    {
+        "id": 46,
+        "titulo": "Maggie In Peril Part One",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "30/4/1989",
+        "sinopsis": "Bart y Lisa se descuidan mientras cuidan de Maggie y el bebé, intentando recuperar su pelota, comienza una aventura que acaba camino de unas cataratas. Bart y Lisa discuten sobre lo que quieren ver en la televisión."
+    },
+    {
+        "id": 47,
+        "titulo": "Maggie In Peril Part Two",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "7/5/1989",
+        "sinopsis": "Maggie sobrevive a las cataratas y, después de unas cuantas peripecias más acaba en su parquecito del jardín justo cuando llegan Homero y Marge."
+    },
+    {
+        "id": 48,
+        "titulo": "T.V. Simpsons",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "14/5/1989",
+        "sinopsis": "Bart y Lisa están viendo «Tommy y Daly», pero Homer lo cambia y pone un partido de bolos. Bart y Lisa salen fuera a volar la cometa, que se engancha en la cadena de la tele. Homero tiene que subir al tejado a intentar arreglarla."
+    }
+
+]

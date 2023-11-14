@@ -1,0 +1,179 @@
+[
+    {
+        "id": 8,
+        "titulo": "Making Faces ",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": "22/9/1987",
+        "sinopsis": "Bart, Lisa y Maggie juegan a ver quién hace la mueca más grotesca, a pesar de que Marge les avisa de que se les puede quedar la cara fea para siempre."
+    },
+    {
+        "id": 9,
+        "titulo": "The Funeral",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": "03/5/1987",
+        "sinopsis": "Los Simpson van al funeral del tío Hubert y Bart no se comporta como debería hacerlo."
+    },
+    {
+        "id": 10,
+        "titulo": "Maggie's Brain",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": "11/10/1987",
+        "sinopsis": "Bart y Lisa están ante la cuna de Maggie. Primero intentan descifrar su lenguaje corporal, después se preguntan sobre los pensamientos y sueños del bebé."
+    },
+    {
+        "id": 11,
+        "titulo": "Football ",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": "18/10/1987",
+        "sinopsis": "Homero llevará a Bart, Lisa y Maggie a tomar unos batidos si Bart es capaz de agarrar un pase suyo con una pelota de fútbol americano."
+    },
+    {
+        "id": 12,
+        "titulo": "House Of Cards",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": "25/10/1987",
+        "sinopsis": "Bart intenta construir un castillo de naipes, pero Lisa y Maggie se lo ponen difícil."
+    },
+    {
+        "id": 13,
+        "titulo": "Bart And Dad Eat Dinner ",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": "01/11/1987",
+        "sinopsis": "Marge se lleva a Lisa y Maggie al ballet mientras Bart y Homero se quedan solos en casa para la cena. Homer hace una cena con muy mala pinta y Bart intenta no tener que comerla."
+    },
+    {
+        "id": 14,
+        "titulo": "Space Patrol",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": "08/11/1987",
+        "sinopsis": "Bart, Lisa y Maggie juegan a «La patrulla del espacio»."
+    },
+    {
+        "id": 15,
+        "titulo": "Bart's Haircut ",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": "15/11/1987",
+        "sinopsis": "Bart va a cortarse el pelo y el peluquero le deja calvo. Avergonzado, intenta que la familia no le vea así."
+    },
+    {
+        "id": 16,
+        "titulo": "World War III ",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": " 22/11/1987",
+        "sinopsis": "Homero hace varios simulacros de protección por si estalla la Tercera Guerra Mundial."
+    },
+    {
+        "id": 17,
+        "titulo": "The Perfect Crime",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": "13/12/1987",
+        "sinopsis": "Bart intenta hacer «el crimen perfecto»: comerse las galletas que Marge acaba de hacer sin ser descubierto."
+    },
+    {
+        "id": 18,
+        "titulo": "Scary Stories",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": "20/12/1987",
+        "sinopsis": "Bart cuenta a Lisa y Maggie historias de miedo con las luces apagadas que, en la oscuridad, parecen cobrar vida."
+    },
+    {
+        "id": 19,
+        "titulo": "Grandpa & The Kids",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": "10/1/1988",
+        "sinopsis": "El Abuelo cuenta varias historias sobre sus tiempos a Bart, Lisa y Maggie. Más tarde cuenta, a petición de Bart, una historia de miedo que sorprende a los niños."
+    },
+    {
+        "id": 20,
+        "titulo": "Gone Fishin",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": "24/1/1988",
+        "sinopsis": "Homero y Bart van de pesca, pero no es una relajada excursión."
+    },
+    {
+        "id": 21,
+        "titulo": "Skateboarding",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": " 7/2/1988",
+        "sinopsis": "Bart, Lisa y Maggie juegan con sus monopatines."
+    },
+    {
+        "id": 22,
+        "titulo": "The Pagans",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "14/2/1988",
+        "sinopsis": "Mientras van a la Iglesia, Bart, Lisa y Maggie hacen enfadar a su padre diciéndole que quieren ser paganos."
+    },
+    {
+        "id": 23,
+        "titulo": "The Closet",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "21/2/1988",
+        "sinopsis": "Bart cree que Homero le va a encargar alguna tarea y se esconde en un armario en el que se queda encerrado."
+    },
+    {
+        "id": 24,
+        "titulo": " The Aquarium",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "28/2/1988",
+        "sinopsis": "Homero, Bart, Lisa y Maggie van al acuario y Bart hace tonterías peligrosas en la piscina de los tiburones."
+    },
+    {
+        "id": 25,
+        "titulo": "Family Portrait",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "06/3/1988",
+        "sinopsis": "Homero intenta juntar a toda la familia para un retrato, pero ninguna foto sale bien."
+    },
+    {
+        "id": 26,
+        "titulo": "Bart's Hiccups",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "13/3/1988",
+        "sinopsis": "Lisa y Maggie intentan curar el hipo de Bart con métodos poco recomendables."
+    },
+    {
+        "id": 27,
+        "titulo": "The Money Jar",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "20/3/1988",
+        "sinopsis": "Bart, Lisa y Maggie se quedan solos en casa y se sienten tentados de robar dinero del tarro donde Marge lo guarda."
+    },
+    {
+        "id": 28,
+        "titulo": "The Art Museum",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "01/5/1988",
+        "sinopsis": "Los Simpson van a un museo de arte. Bart se queda mirando un desnudo y Lisa casi rompe una vasija. Marge cree que los niños son demasiado pequeños para apreciar el arte."
+    },
+    {
+        "id": 29,
+        "titulo": "Zoo Story",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer",
+        "fecha": "08/5/1988",
+        "sinopsis": "Los Simpson van al zoologico y Homero tiene problemas con los monos."
+    }
+
+]

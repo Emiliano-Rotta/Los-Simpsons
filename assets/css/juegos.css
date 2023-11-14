@@ -1,0 +1,67 @@
+@import url('https://fonts.cdnfonts.com/css/homer-simpson-revised');
+
+.card-juego{
+    width: 50%;
+    height: 50vh;
+    border: solid 4px #F8C947;
+    margin-top: 2%;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(246, 144, 161);
+                                                
+}
+.card-juego:hover{
+    color:#F8C947;
+    border: solid 4px rgb(246, 144, 161);
+}
+.card-juego h2{
+    font-size: 55px;
+    font-family: 'Homer Simpson Revised', sans-serif;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+.candy{
+    background-image:url("../../assets/img/juegos/homero chocolate.jpeg");
+    background-size: cover;
+}
+
+.piedra{
+    background-image:url("../../assets/img/juegos/la fiel piedra.jpg");
+    background-size: cover;
+}
+
+.maquillaje{
+    background-image:url("../../assets/img/juegos/marge maquillada.jpg");
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 1200px) {
+    .card-juego{
+        width: 70%;                                                
+    }    
+}
+@media (max-width: 800px) {
+    .card-juego{
+        width: 90%;
+        height: 40vh;                                                   
+    }   
+    footer{
+        height: 15%;
+     }
+}
+@media (max-width: 576px) {
+    .card-juego{
+        width: 90%;
+        height: 30vh;                                                   
+    }   
+    .card-juego h2{
+        font-size: 35px;
+    }
+}
+
+

@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "titulo": "Good Night",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": "19/4/1987",
+        "sinopsis": "Homero y Marge dan las buenas noches a sus hijos, pero no les va tan bien como creen."
+    },
+    {
+        "id": 2,
+        "titulo": "Watching Television",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": "03/5/1987",
+        "sinopsis": "Bart y Lisa discuten sobre lo que quieren ver en la televisión." 
+    },
+    {
+        "id": 3,
+        "titulo": "Bart Jumps",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": "10/5/1987",
+        "sinopsis": "Homero intenta que Bart salte a sus brazos desde una mesa. Bart no quiere, pero siempre que se decide a hacerlo, Homero se distrae con algo y cae al suelo."
+    },
+    {
+        "id": 4,
+        "titulo": "Babysitting Maggie",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": "31/5/1987",
+        "sinopsis": "Marge deja a Bart y Lisa al cuidado de Maggie, pero se distraen mirando la tele y la bebé sufre las consecuencias."
+    },
+    {
+        "id": 5,
+        "titulo": "The Pacifier",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": "21/6/1987",
+        "sinopsis": "Bart y Lisa intentan obligar a Maggie a que deje su chupete, pero Maggie no está dispuesta a abandonar su hábito y desbarata todos los planes de sus hermanos."
+    },
+    {
+        "id": 6,
+        "titulo": "Burp Contest ",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": "28/6/1987",
+        "sinopsis": "Bart, Lisa y Maggie están haciendo un concurso de eructos, a pesar de que Marge les riñe varias veces."
+    },
+    {
+        "id": 7,
+        "titulo": "Eating Dinner",
+        "escritor": "Matt Groening",
+        "directores": "David Silverman, Wesley Archer, Bill Kopp",
+        "fecha": "12/7/1987",
+        "sinopsis": "Marge intenta que su familia tenga buenos modales en la mesa."
+    }
+
+]
