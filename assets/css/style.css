@@ -491,7 +491,7 @@ main i{
     .avatar{
         left: 50%;
     }  
-
+ 
   }
 
 
@@ -499,15 +499,16 @@ main i{
 
     nav{
         display: block;
+        margin-right: -20%;
     }
     .burger{
         /* display: flex; */
         margin-bottom: 10px;
-        width: 500px;
+        width: 70%;
         height: 50px;
         font-size: 50px;
         justify-content: center;
-        margin-left: -50px;
+        margin-left: 0%;
     }
     .btn-burger-cerrar{
         display: none;
@@ -525,19 +526,22 @@ main i{
         display: none;
     }
     nav section div a button{
-        margin-left: -50px;
+        margin-left: 0%;
         margin-bottom: 10px;
-        width: 500px;
+        width: 70%;
         height: 50px;
         font-size: 50px;
     }
     
     #cortos{
-        width: 500px;
+        width: 70%;
+        font-size: 35px;
+        margin-left: 0%;
     }    
    
     
     .card{
+        margin-left: 2px;
         border: solid 3px black;
         width: 48%;
     }
@@ -565,29 +569,32 @@ main i{
         margin-top: 0px;
     }
     #tarjetas{
+        width: 100%;
         margin-top: 15%;
     }
     .buscador-contenedor{
-        top: 70%; 
+        top: 50%; 
     }
     .sonido{
         top: 11%; 
     }
     footer {
+
         height: 7%;
-        display: flex;
+        display: none;
         font-size: 20px;
     }
-    footer a {
-        justify-content: center;
-    }
+
     .name{
         font-size: 25px;
     }
   }
 
 @media (max-width: 576px) {
-
+ 
+    body{
+        width: 100vh;
+    }
     .card:active{
         width: 60%;
         height: 60vh;
@@ -614,14 +621,7 @@ main i{
     #tarjetas{
         margin-top: 20%;
     }
-    footer {
-        height: 10%;
-        display: flex;
-        font-size: 20px;
-    }
-    footer a {
-        justify-content: center;
-    }
+ 
     .name{
         font-size: 20px;
     }
