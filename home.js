@@ -90,7 +90,7 @@ cerrarModal.onclick = cerrarModalRey
 
 
 //boton hamburguesa
-
+const avatar = document.querySelector('.avatar')
 const burgerCerrar = document.querySelector('.btn-burger-cerrar')
 const burgerAbrir = document.querySelector('.btn-burger-abrir')
 // const navBtn = document.querySelector('.nav-btn')
@@ -101,6 +101,7 @@ function hamburguesaCerrar(){
     navBtn.style.display = "none"
     burgerCerrar.style.display = "none"
     burgerAbrir.style.display = "block"
+    avatar.style.display = "block"
   }
 
 function hamburguesaAbrir(){
@@ -108,6 +109,7 @@ function hamburguesaAbrir(){
   navBtn.style.display = "block"
   burgerCerrar.style.display = "block"
   burgerAbrir.style.display = "none"
+  avatar.style.display = "none"
 }
 
 
