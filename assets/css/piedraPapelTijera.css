@@ -43,3 +43,7 @@ main{
     cursor: pointer;
     margin: 18px;
 }
+
+footer {
+    margin-top: 80vh;
+}

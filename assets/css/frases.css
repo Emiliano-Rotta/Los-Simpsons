@@ -11,10 +11,9 @@
     width: 100%;
     height: 100%;
 }
-footer{
-    position: absolute;
-    bottom: 0vh;
- } 
+footer {
+    margin-top: 80vh;
+}
 
  .modal-container{
     display: flex;
@@ -121,6 +120,9 @@ footer{
      }
  }
  @media (max-width: 600px) {
+    .avatar{
+        display: none;
+      }
     .div-imagen { 
         width: 500px;
         height: 290px;

@@ -596,9 +596,9 @@ main i{
 
 @media (max-width: 576px) {
  
-    main{
+    /* main{
         width: 100vh;
-    }
+    } */
     /* nav{
         width: 100vh;
         height: 15vh;
@@ -645,7 +645,7 @@ main i{
         height: 45vh;
     }
     #modal-rey { 
-        width: 80vh;
+        width: 60vh;
         margin-left: 10vh;
     }
   }
