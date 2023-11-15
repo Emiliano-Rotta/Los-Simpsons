@@ -28,7 +28,7 @@ function pauseUno(){
 
 const fetchTemporadaUno = async(numDatoT1)=> {
     try {
-      const temporadaUnoFetch = await fetch('../db/temporadaUno.json');
+      const temporadaUnoFetch = await fetch('../public/db/temporadaUno.json');
       const temporadaUno = await temporadaUnoFetch.json();
       divDatosT1.innerHTML = `
         <h2 id="titulo"><b>Titulo:</b> ${temporadaUno[numDatoT1].titulo}</h2>
@@ -101,7 +101,7 @@ paginaActualDos.innerHTML = 1
 
 const fetchTemporadaDos = async(numDatoT2)=> {
     try {
-      const temporadaDosFetch = await fetch('../db/temporadaDos.json');
+      const temporadaDosFetch = await fetch('../public/db/temporadaDos.json');
       const temporadaDos = await temporadaDosFetch.json();
       divDatosT2.innerHTML = `
         <h2 id="titulo"><b>Titulo:</b> ${temporadaDos[numDatoT2].titulo}</h2>
@@ -173,7 +173,7 @@ paginaActualTres.innerHTML = 1
 
 const fetchTemporadaTres = async(numDatoT3)=> {
     try {
-      const temporadaTresFetch = await fetch('../db/temporadaTres.json');
+      const temporadaTresFetch = await fetch('../public/db/temporadaTres.json');
       const temporadaTres = await temporadaTresFetch.json();
       divDatosT3.innerHTML = `
         <h2 id="titulo"><b>Titulo:</b> ${temporadaTres[numDatoT3].titulo}</h2>
