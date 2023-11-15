@@ -7,7 +7,7 @@ let puntajeTotal = localStorage.getItem("puntajeTotal-candy")
 if (puntajeTotal === null){
   tituloModal.textContent = "Bienvenido a CandyHomer"
 } else {
-  tituloModal.textContent = `Superá tu record de ${puntajeTotal} puntos.`
+  tituloModal.textContent = `Superá tu record de ${puntajeTotal? puntajeTotal : 0} puntos.`
 }
  
   parrafoPuntaje.style.display = "none"
@@ -371,7 +371,7 @@ const mostrarPuntajeFinal = () => {
     localStorage.setItem("puntajeTotal-candy", puntos)
   } else {
     tituloModal.textContent = `Hiciste ${puntos} puntos.`
-    puntajeFinal.textContent = `Tu record es de ${puntajeTotal} puntos.`
+    puntajeFinal.textContent = `Tu record es de ${puntajeTotal? puntajeTotal : 0} puntos.`
   }
   // puntajeFinal.textContent = puntos
 };
