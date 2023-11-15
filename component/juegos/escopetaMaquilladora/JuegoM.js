@@ -14,7 +14,7 @@ let puntajeTotal = localStorage.getItem("Puntage-total-escopeta")
 
 times.textContent= `Tiempo: ${second}s.`;
 puntos.textContent= `Puntos: ${puntaje}.`;
-puntosTotal.textContent= `Record: ${puntajeTotal}.`;
+puntosTotal.textContent= `Record: ${puntajeTotal? puntajeTotal : 0}.`;
 cierraOjos.play();
 
 
