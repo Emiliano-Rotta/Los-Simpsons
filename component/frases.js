@@ -3,15 +3,33 @@ const imagen = document.querySelector(".img-frase")
 
 imagen.src = `../assets/img/frases/${0}.png`
 
+const reFillBundle = () => {
+    console.log("refill")
+    return Array.from({length: 100}, (_, i) => i+1);
+}
+
+var prevNum = 0
+var bundle = reFillBundle()
+
+const getRandomInt = (min, max) => {
+    const range = max - min + 1;
+    const rand = Math.random();
+    return Math.floor(rand * range) + min;
+}
 
 const numeroRandom = () => {
-    var random = Math.random()*100;
-    var num = (Math.ceil(random))
-    console.log(num)
-    if (num < 101) {
-        imagen.src = `../assets/img/frases/${num}.png`
+    if (bundle.length > 0) {
+        var num = getRandomInt(0, bundle.length - 1)
+        if(prevNum === num){
+            return numeroRandom()
+        }
+        prevNum = num
+        imagen.src = `../assets/img/frases/${num + 1}.png`
+        bundle.splice(num - 1, 1)
+        return 
     } else {
-        numeroRandom()
+        bundle = reFillBundle()
+        return numeroRandom()
     }
     
 } 
