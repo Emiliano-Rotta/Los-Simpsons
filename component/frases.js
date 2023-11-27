@@ -8,8 +8,9 @@ const reFillBundle = () => {
     return Array.from({length: 100}, (_, i) => i+1);
 }
 
-var prevNum = 0
-var bundle = reFillBundle()
+let canChange = true
+let prevImage = imagen.src
+let bundle = reFillBundle()
 
 const getRandomInt = (min, max) => {
     const range = max - min + 1;
@@ -18,21 +19,36 @@ const getRandomInt = (min, max) => {
 }
 
 const numeroRandom = () => {
-    if (bundle.length > 0) {
-        var num = getRandomInt(0, bundle.length - 1)
-        if(prevNum === num){
-            return numeroRandom()
-        }
-        prevNum = num
-        imagen.src = `../assets/img/frases/${num + 1}.png`
-        bundle.splice(num - 1, 1)
-        return 
-    } else {
-        bundle = reFillBundle()
-        return numeroRandom()
+    if(!canChange){
+        return
     }
-    
-} 
+
+    canChange = false
+
+    let state = true
+    while(state){
+        if (bundle.length > 0) {
+            let index = getRandomInt(0, bundle.length - 1)
+
+            let newImage = `../assets/img/frases/${bundle[index]}.png`
+            if(prevImage === newImage){
+                continue
+            }
+
+            imagen.src = newImage
+            prevImage = newImage
+            
+            
+            bundle.splice(index, 1)
+
+            state = false
+        } else {
+            bundle = reFillBundle()
+        }
+    }
+
+    canChange = true
+}
 
 imagen.onclick = numeroRandom
 
